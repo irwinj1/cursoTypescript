@@ -20,6 +20,11 @@ const routes = [
     name: "proyectos",
     component: () => import("../views/Proyectos.vue"),
   },
+  {
+    path: "/reg-projects",
+    name: "reg-projects",
+    component: () => import("../views/Create.vue"),
+  },
 ];
 
 const router = createRouter({
